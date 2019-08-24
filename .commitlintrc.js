@@ -1,4 +1,4 @@
-module.exports = Object.assign({}, require('./src/lint'), {
+module.exports = Object.assign({}, require('./lib/lint'), {
   rules: {
     'body-leading-blank': [2, 'always'],
     'footer-leading-blank': [1, 'always'],
