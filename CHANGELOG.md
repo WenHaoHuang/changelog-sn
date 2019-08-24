@@ -1,8 +1,24 @@
-# Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### [0.0.3](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.2...v0.0.3)
 
-### [0.0.3](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.2...v0.0.3) (2019-08-24)
+_2019-08-24_
+
+#### Bug 修复
+
+- template
+  - 修复生成template的格式问题 ([9bb73de](https://github.com/WenHaoHuang/changelog-sn/commit/9bb73de))- template问题修复 ([b36bfa2](https://github.com/WenHaoHuang/changelog-sn/commit/b36bfa2))
+
+#### 新功能
+
+- template格式问题 ([a144ed1](https://github.com/WenHaoHuang/changelog-sn/commit/a144ed1))- 全部
+  - 目录调整 ([422f487](https://github.com/WenHaoHuang/changelog-sn/commit/422f487))
+
+#### 不兼容变更
+
+- 全部
+  - 全部
+
+
 
 ### [0.0.2](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.1...v0.0.2)
 
