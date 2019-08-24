@@ -15,6 +15,7 @@ module.exports = Q.all([
   writerOpts.headerPartial = header;
   writerOpts.commitPartial = commit;
   writerOpts.footerPartial = footer;
+
   return writerOpts;
 });
 
