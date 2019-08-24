@@ -1,19 +1,13 @@
-# Changelog
+### [0.0.1](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.2...v0.0.1)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+_2019-08-24_
+### [0.0.2](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.1...v0.0.2)
 
-### [0.0.2](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.1...v0.0.2) (2019-08-24)
+_2019-08-24_
+### [0.0.1](https://github.com/WenHaoHuang/changelog-sn/compare/8a3f81e...v0.0.1)
 
-### 0.0.1 (2019-08-24)
+_2019-08-24_
 
-# Changelog
+#### 新功能
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-##  (2019-08-24)
-
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-##  (2019-08-24)
+- 初始化项目 ([8a3f81e](https://github.com/WenHaoHuang/changelog-sn/commit/8a3f81e))
