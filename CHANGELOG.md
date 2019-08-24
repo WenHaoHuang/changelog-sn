@@ -1,9 +1,9 @@
-### [0.0.1](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.2...v0.0.1)
+## 更新日志
 
-_2019-08-24_
 ### [0.0.2](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.1...v0.0.2)
 
 _2019-08-24_
+
 ### [0.0.1](https://github.com/WenHaoHuang/changelog-sn/compare/8a3f81e...v0.0.1)
 
 _2019-08-24_
