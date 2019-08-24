@@ -11,7 +11,7 @@
     "scripts":
     {
         "cz": "git add . && git cz",
-        "log": "conventional-changelog --config src/log -i CHANGELOG.md -s -r 0",
+        "log": "conventional-changelog --config lib/log -i CHANGELOG.md -s -r 0",
         "v": "standard-version",
         "build": "rm -rf dist && cross-env babel src --out-dir lib"
     },
@@ -23,7 +23,7 @@
     {
         "commitizen":
         {
-            "path": "./src/cz"
+            "path": "./lib/cz"
         }
     },
     "husky":
