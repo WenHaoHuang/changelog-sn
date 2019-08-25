@@ -107,7 +107,7 @@ module.exports = Object.assign({}, require('changelog-sn/lib/lint'), {
 
 ### 2. 提交后，输入更新日志命令，CHANGELOG.MD 内容没有更新？
 
-只有每次版本迭代的的时候才会更新这一次的日志信息。可以尝试打个标签最为封版。
+只有每次版本迭代的的时候才会更新这一次的日志信息。可以尝试打个标签作为封版。
 
 ### 3. mac 无法运行 git 命令，报错？
 
