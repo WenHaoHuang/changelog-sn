@@ -28,8 +28,7 @@
 {{~#if references~}}
 , closes
 {{~#each references}} {{#if @root.linkReferences~}}
-[
-{{~#if this.owner}}
+[{{~#if this.owner}}
 {{~this.owner}}/
 {{~/if}}
 {{~this.repository}}#{{this.issue}}](
@@ -59,3 +58,4 @@
 {{~this.repository}}#{{this.issue}}
 {{~/if}}{{/each}}
 {{~/if}}
+
