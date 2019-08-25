@@ -1,18 +1,8 @@
+# Changelog
 
-### [Unreleased](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.4...c2cf2a5)
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-_2019-08-25_
-
-#### Bug 修复
-
-- template
-  - 修复生成template的格式问题 ([c2cf2a5](https://github.com/WenHaoHuang/changelog-sn/commit/c2cf2a5))
-
-
-#### 文档
-
-- 更新changelog ([fe8ae37](https://github.com/WenHaoHuang/changelog-sn/commit/fe8ae37))
-
+### [0.0.5](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.4...v0.0.5) (2019-08-25)
 
 ### [0.0.4](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.3...v0.0.4)
 
