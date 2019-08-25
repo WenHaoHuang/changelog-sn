@@ -1,7 +1,28 @@
 
+### [Unreleased](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.4...c2cf2a5)
+
+_2019-08-25_
+
+#### Bug 修复
+
+- template
+  - 修复生成template的格式问题 ([c2cf2a5](https://github.com/WenHaoHuang/changelog-sn/commit/c2cf2a5))
+
+
+#### 文档
+
+- 更新changelog ([fe8ae37](https://github.com/WenHaoHuang/changelog-sn/commit/fe8ae37))
+
+
 ### [0.0.4](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.3...v0.0.4)
 
 _2019-08-25_
+
+#### 文档
+
+- changelog ([757d53e](https://github.com/WenHaoHuang/changelog-sn/commit/757d53e))
+- 修复readme中的一处文字错误 ([1d328ad](https://github.com/WenHaoHuang/changelog-sn/commit/1d328ad))
+
 
 #### 新功能
 
@@ -18,6 +39,12 @@ _2019-08-24_
 - template
   - 修复生成template的格式问题 ([9bb73de](https://github.com/WenHaoHuang/changelog-sn/commit/9bb73de))
 - template问题修复 ([b36bfa2](https://github.com/WenHaoHuang/changelog-sn/commit/b36bfa2))
+
+
+#### 持续集成
+
+- 脚本文件修改 ([7bb7c11](https://github.com/WenHaoHuang/changelog-sn/commit/7bb7c11))
+- 脚本文件修改 ([fa0b8be](https://github.com/WenHaoHuang/changelog-sn/commit/fa0b8be))
 
 
 #### 新功能
