@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.0.6](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.5...v0.0.6) (2019-08-26)
+
+
+### Features
+
+* 调整cz配置 ([209ca43](https://github.com/WenHaoHuang/changelog-sn/commit/209ca43))
+* 调整cz配置 ([65c1365](https://github.com/WenHaoHuang/changelog-sn/commit/65c1365))
 
 ### [0.0.5](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.4...v0.0.5)
 
