@@ -1,6 +1,6 @@
 {
     "name": "changelog-sn",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "author": "WenHaoHuang",
     "description": "changelog",
     "main": "dist/index.js",
