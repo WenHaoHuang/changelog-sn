@@ -1,34 +1,51 @@
-# Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### [0.0.13](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.6...v0.0.13)
 
-### [0.0.13](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.6...v0.0.13) (2019-10-11)
+_2019-10-11_
 
-### [0.0.12](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.11...v0.0.12) (2019-09-27)
+#### 优化
 
-### [0.0.11](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.10...v0.0.11) (2019-09-27)
-
-### [0.0.10](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.9...v0.0.10) (2019-09-10)
-
-### [0.0.9](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.6...v0.0.9) (2019-09-10)
-
-### [0.0.8](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.7...v0.0.8) (2019-08-29)
-
-### [0.0.7](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.6...v0.0.7) (2019-08-29)
-
-### [0.0.6](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.5...v0.0.6) (2019-08-26)
+- 日志提取
+  - 优化日志提取顺序 ([b0c0b9c](https://github.com/WenHaoHuang/changelog-sn/commit/b0c0b9c))
 
 
-### Features
+#### 修复
 
-* 调整cz配置 ([209ca43](https://github.com/WenHaoHuang/changelog-sn/commit/209ca43))
-* 调整cz配置 ([65c1365](https://github.com/WenHaoHuang/changelog-sn/commit/65c1365))
+- custom
+  - 优化定制化生成changelog的格式 ([ed4219a](https://github.com/WenHaoHuang/changelog-sn/commit/ed4219a))
+- 修复地址错误
+  - 修复地址错误的问题 ([e11b613](https://github.com/WenHaoHuang/changelog-sn/commit/e11b613))
+
+
+#### 新功能
+
+- 配置增加
+  - 新增3个特定配置文档 ([4db5b74](https://github.com/WenHaoHuang/changelog-sn/commit/4db5b74))
+
+
+#### 重构
+
+- changelog
+  - 调整获取changelog的判断条件 ([f5e04fe](https://github.com/WenHaoHuang/changelog-sn/commit/f5e04fe))
+- 日志提取
+  - 更新日志提取的功能 ([f1429e6](https://github.com/WenHaoHuang/changelog-sn/commit/f1429e6))
+
+
+### [0.0.6](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.5...v0.0.6)
+
+_2019-08-26_
+
+#### 新功能
+
+- 调整cz配置 ([209ca43](https://github.com/WenHaoHuang/changelog-sn/commit/209ca43))
+- 调整cz配置 ([65c1365](https://github.com/WenHaoHuang/changelog-sn/commit/65c1365))
+
 
 ### [0.0.5](https://github.com/WenHaoHuang/changelog-sn/compare/v0.0.4...v0.0.5)
 
 _2019-08-25_
 
-#### Bug 修复
+#### 修复
 
 - template
   - template格式问题测试 ([1d8a976](https://github.com/WenHaoHuang/changelog-sn/commit/1d8a976))
@@ -50,7 +67,7 @@ _2019-08-25_
 
 _2019-08-24_
 
-#### Bug 修复
+#### 修复
 
 - template
   - 修复生成template的格式问题 ([9bb73de](https://github.com/WenHaoHuang/changelog-sn/commit/9bb73de))
@@ -81,3 +98,4 @@ _2019-08-24_
 #### 新功能
 
 - 初始化项目 ([8a3f81e](https://github.com/WenHaoHuang/changelog-sn/commit/8a3f81e))
+
