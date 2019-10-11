@@ -11,8 +11,8 @@
     "scripts":
     {
         "cz": "git add . && git cz",
-        "log": "conventional-changelog --config lib/log -i CHANGELOG.md -s -r 0",
-        "log:all": "conventional-changelog --config lib/all -i CHANGELOG.md -s -u -r 2",
+        "log": "conventional-changelog --config lib/log -i CHANGELOG.md -s -r 2",
+        "log:all": "conventional-changelog --config lib/all -i CHANGELOG.md -s -u -r 0",
         "v": "standard-version"
     },
     "keywords": [
