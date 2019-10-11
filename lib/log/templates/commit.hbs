@@ -1,12 +1,13 @@
--{{#if scope}} {{scope}}
-  - 
-{{~/if}} {{#if subject}}
-{{~subject}}
+{{! commit scope }}
+
+- {{#if scope}}{{scope}}{{~/if}}
+{{#if subject}}
+  - {{subject}}
 {{~else}}
-{{~header}}
+  - {{header}}
 {{~/if}}
 
-{{~!-- commit link --}} {{#if @root.linkReferences~}}
+{{~!-- commit link --}}{{#if @root.linkReferences~}}
 ([{{hash}}](
 {{~#if @root.repository}}
 {{~#if @root.host}}
@@ -27,7 +28,9 @@
 {{~!-- commit references --}}
 {{~#if references~}}
 , closes
-{{~#each references}} {{#if @root.linkReferences~}}
+{{~#each references}}
+{{~#if @root.packageData.jira}} [#{{~@root.packageData.jira.type}}-{{this.issue}}]({{~@root.packageData.jira.url}}-{{this.issue}})
+{{~else if @root.linkReferences~}}
 [{{~#if this.owner}}
 {{~this.owner}}/
 {{~/if}}
@@ -58,4 +61,3 @@
 {{~this.repository}}#{{this.issue}}
 {{~/if}}{{/each}}
 {{~/if}}
-
