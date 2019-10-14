@@ -29,7 +29,7 @@
 {{~#if references~}}
 , closes
 {{~#each references}}
-{{~#if @root.packageData.jira}} [#{{~@root.packageData.jira.type}}-{{this.issue}}]({{~@root.packageData.jira.url}}-{{this.issue}})
+{{~#if @root.packageData.jira}} [#{{~@root.packageData.jira.type}}-{{this.issue}}]({{~@root.packageData.jira.url}}/{{@root.packageData.jira.type}}-{{this.issue}})
 {{~else if @root.linkReferences~}}
 [{{~#if this.owner}}
 {{~this.owner}}/
