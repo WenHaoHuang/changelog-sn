@@ -1,4 +1,19 @@
 
+### 1.1.0
+
+_2019-10-14_
+
+#### 新功能
+
+
+- template
+  - 增加commit信息按照scope进行合并的功能([ebded6c](https://github.com/WenHaoHuang/changelog-sn/commit/ebded6c))
+
+### 1.0.1
+
+_2019-10-14_
+
+
 ### [1.0.1](https://github.com/WenHaoHuang/changelog-sn/compare/v1.0.0...v1.0.1)
 
 _2019-10-14_
