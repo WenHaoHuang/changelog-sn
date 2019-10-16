@@ -23,10 +23,12 @@
 {{~else}}
 {{~hash}}
 {{~/if}}
-
+{{~#if @root.packageData.jira.author~}}
+({{~author}})
+{{~/if}}
 {{~!-- commit references --}}
 {{~#if references~}}
-, closes
+, CLOSE
 {{~#each references}}
 {{~#if @root.packageData.jira}} [#{{~@root.packageData.jira.type}}-{{this.issue}}]({{~@root.packageData.jira.url}}/{{@root.packageData.jira.type}}-{{this.issue}})
 {{~else if @root.linkReferences~}}
