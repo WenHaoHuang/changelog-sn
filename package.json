@@ -1,16 +1,21 @@
 {
     "name": "changelog-sn",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "author": "WenHaoHuang",
     "description": "changelog",
     "main": "lib/log/index.js",
     "module": "lib/log/index.js",
+    "bin":
+    {
+        "changelog-sn": "./lib/core/cli.js"
+    },
     "files": [
         "lib"
     ],
-    "scripts": {
+    "scripts":
+    {
         "cz": "git add . && git cz",
-        "log": "conventional-changelog --config lib/log -i CHANGELOG.md -s -r 2",
+        "log": "changelog-sn -i CHANGELOG.md -s -r 0",
         "log:all": "conventional-changelog --config lib/all -i CHANGELOG.md -s -u -r 0",
         "v": "standard-version"
     },
@@ -18,55 +23,44 @@
         "changelog",
         "git"
     ],
-    "config": {
-        "commitizen": {
-            "path1": "./lib/cz",
+    "config":
+    {
+        "commitizen":
+        {
             "path": "node_modules/cz-customizable"
         },
-        "cz-customizable": {
+        "cz-customizable":
+        {
             "config": ".cz-config.js"
         }
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged",
+    "husky":
+    {
+        "hooks":
+        {
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
         }
     },
-    "lint-staged": {
-        "*.js": [
-            "eslint --fix",
-            "git add"
-        ]
-    },
-    "dependencies": {
-        "work-wrap": "^1.0.0",
-        "q": "^1.5.1",
-        "right-pad": "^1.0.1",
-        "compare-func": "^1.3.2",
+    "dependencies":
+    {
         "chalk": "^2.4.2",
-        "longest": "^2.0.1"
+        "compare-func": "^1.3.2",
+        "longest": "^2.0.1",
+        "q": "^1.5.1"
     },
-    "devDependencies": {
-        "babel-cli": "^6.26.0",
-        "babel-plugin-transform-runtime": "^6.23.0",
-        "babel-preset-es2015": "^6.24.1",
+    "devDependencies":
+    {
+        "add-stream": "^1.0.0",
         "commitizen": "^4.0.3",
         "commitlint": "^8.2.0",
-        "conventional-changelog-cli": "^2.0.25",
-        "cross-env": "^6.0.3",
         "cz-customizable": "^6.2.0",
-        "eslint": "^6.2.2",
-        "eslint-config-airbnb": "^18.0.1",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-react": "^7.14.3",
         "github-url-from-git": "^1.5.0",
         "husky": "^3.0.4",
-        "lint-staged": "^9.2.3",
-        "standard-version": "^7.0.0"
+        "standard-version": "^7.0.0",
+        "tempfile": "^3.0.0"
     },
-    "repository": {
+    "repository":
+    {
         "type": "git",
         "url": "https://github.com/WenHaoHuang/changelog-sn"
     },
