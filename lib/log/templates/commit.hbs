@@ -1,12 +1,11 @@
 {{! commit scope }}
-
 {{#if subject}}
   - {{subject}}
 {{~else}}
   - {{header}}
 {{~/if}}
-
-{{~!-- commit link --}}{{#if @root.linkReferences~}}
+{{~!-- commit link --}}
+{{~#if @root.linkReferences~}}
 ([{{hash}}](
 {{~#if @root.repository}}
 {{~#if @root.host}}
@@ -23,14 +22,14 @@
 {{~else}}
 {{~hash}}
 {{~/if}}
-{{~#if @root.packageData.jira.author~}}
-({{~author}} {{~committerDate}})
-{{~/if}}
 {{~!-- commit references --}}
+{{~#if @root.pkgSnData.author~}}
+({{~author~}})({{~committerDate}})
+{{~/if}}
 {{~#if references~}}
 , CLOSE
 {{~#each references}}
-{{~#if @root.packageData.jira}} [#{{~@root.packageData.jira.type}}-{{this.issue}}]({{~@root.packageData.jira.url}}/{{@root.packageData.jira.type}}-{{this.issue}})
+{{~#if @root.pkgSnData.jira}} [#{{~@root.pkgSnData.type}}-{{this.issue}}]({{~@root.pkgSnData.url}}/{{@root.pkgSnData.type}}-{{this.issue}})
 {{~else if @root.linkReferences~}}
 [{{~#if this.owner}}
 {{~this.owner}}/

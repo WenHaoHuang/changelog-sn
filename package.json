@@ -1,6 +1,6 @@
 {
     "name": "changelog-sn",
-    "version": "1.2.0",
+    "version": "2.0.0",
     "author": "WenHaoHuang",
     "description": "changelog",
     "main": "lib/log/index.js",
@@ -16,7 +16,7 @@
     {
         "cz": "git add . && git cz",
         "log": "changelog-sn -i CHANGELOG.md -s -r 0",
-        "log:all": "conventional-changelog --config lib/all -i CHANGELOG.md -s -u -r 0",
+        "log:all": "changelog-sn --config lib/all -i CHANGELOG.md -s -u -r 0",
         "v": "standard-version"
     },
     "keywords": [
@@ -32,6 +32,14 @@
         "cz-customizable":
         {
             "config": ".cz-config.js"
+        },
+        "changelog-sn":
+        {
+            "jira": true,
+            "type": "DASP",
+            "url": "http://newjira.cnsuning.com/brower",
+            "author": true,
+            "dateFormat": "yyyy-mm-dd HH:MM:ss"
         }
     },
     "husky":

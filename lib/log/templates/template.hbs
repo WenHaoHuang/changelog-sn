@@ -1,19 +1,17 @@
-
 {{> header}}
 {{#each commitGroups}}
 {{#if title}}
 
 #### {{title}}
+
 {{/if}}
 {{#each scopes}}
-
-
-- {{scope~}}
+- {{scope}}
 {{#each commits}}
 {{> commit root=@root}}
 {{/each}}
-{{/each}}
 
+{{/each}}
 {{/each}}
 
 {{> footer}}
