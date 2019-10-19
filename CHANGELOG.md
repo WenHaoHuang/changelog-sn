@@ -1,3 +1,34 @@
+### 2.0.4
+
+_2019-10-19_
+
+#### 优化
+
+- 日志输出
+  - 优化日志输出格式([e19f907](https://github.com/WenHaoHuang/changelog-sn/commit/e19f907))
+- 输出配置优化
+  - 优化配置项，调整配置位置([642e968](https://github.com/WenHaoHuang/changelog-sn/commit/642e968))
+
+#### 修复
+
+- dateFormat
+  - 修复时间格式化异常的问题([7e4e83f](https://github.com/WenHaoHuang/changelog-sn/commit/7e4e83f))
+- dependencies
+  - 调整依赖位置([8d422c4](https://github.com/WenHaoHuang/changelog-sn/commit/8d422c4))
+- template
+  - 修复日志模板格式错误问题([2e2f6c7](https://github.com/WenHaoHuang/changelog-sn/commit/2e2f6c7))
+- 生成格式
+  - 修复changelog生成格式错乱的问题([f72c915](https://github.com/WenHaoHuang/changelog-sn/commit/f72c915))
+
+#### 新功能
+
+- log
+  - 增加提取commit信息的author字段,支持通过package设置是否展示到changelog内([a147aa7](https://github.com/WenHaoHuang/changelog-sn/commit/a147aa7))
+- template
+  - 增加commit信息按照scope进行合并的功能([ebded6c](https://github.com/WenHaoHuang/changelog-sn/commit/ebded6c))
+- 配置修改
+  - 集成bin命令，实现可配置化关联issues问题、控制是否展示提交者信息、支持自定义时间格式化([abdb782](https://github.com/WenHaoHuang/changelog-sn/commit/abdb782))
+
 ### 2.0.3
 
 _2019-10-19_
