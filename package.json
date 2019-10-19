@@ -1,6 +1,6 @@
 {
     "name": "changelog-sn",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "author": "WenHaoHuang",
     "description": "changelog",
     "main": "lib/log/index.js",
@@ -41,11 +41,9 @@
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
         }
     },
-    "standard-version":
-    {
+    "standard-version": {
         "message": "chore(release): %s",
-        "skip":
-        {
+        "skip": {
             "changelog": true
         }
     },
