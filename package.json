@@ -54,8 +54,7 @@
         "husky": "3.0.9"
     },
     "devDependencies": {
-        "standard-version": "^7.0.0",
-        "changelog-sn": "2.0.0"
+        "standard-version": "^7.0.0"
     },
     "repository": {
         "type": "git",
