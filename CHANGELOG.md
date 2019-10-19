@@ -1,102 +1,111 @@
+### 2.0.2
+
+_2019-10-19_
+
+#### 优化
+
+- 输出配置优化
+  - 优化配置项，调整配置位置([642e968](https://github.com/WenHaoHuang/changelog-sn/commit/642e968))
+
 ### 2.0.1
 
-_2019-10-19 04:07:38_
+_2019-10-19_
 
 #### 优化
 
 - 日志输出
-  - 优化日志输出格式([e19f907](https://github.com/WenHaoHuang/changelog-sn/commit/e19f907))(wenhao.huang)(2019-10-18 16:13:56)
+  - 优化日志输出格式([e19f907](https://github.com/WenHaoHuang/changelog-sn/commit/e19f907))
 
 #### 修复
 
 - dependencies
-  - 调整依赖位置([8d422c4](https://github.com/WenHaoHuang/changelog-sn/commit/8d422c4))(wenhao.huang)(2019-10-19 04:07:19)
+  - 调整依赖位置([8d422c4](https://github.com/WenHaoHuang/changelog-sn/commit/8d422c4))
 - 生成格式
-  - 修复changelog生成格式错乱的问题([f72c915](https://github.com/WenHaoHuang/changelog-sn/commit/f72c915))(WenHaoHuang)(2019-10-14 11:40:09)
+  - 修复changelog生成格式错乱的问题([f72c915](https://github.com/WenHaoHuang/changelog-sn/commit/f72c915))
 
 #### 新功能
 
 - log
-  - 增加提取commit信息的author字段,支持通过package设置是否展示到changelog内([a147aa7](https://github.com/WenHaoHuang/changelog-sn/commit/a147aa7))(WenHaoHuang)(2019-10-16 06:55:12)
+  - 增加提取commit信息的author字段,支持通过package设置是否展示到changelog内([a147aa7](https://github.com/WenHaoHuang/changelog-sn/commit/a147aa7))
 - template
-  - 增加commit信息按照scope进行合并的功能([ebded6c](https://github.com/WenHaoHuang/changelog-sn/commit/ebded6c))(WenHaoHuang)(2019-10-14 11:06:49)
+  - 增加commit信息按照scope进行合并的功能([ebded6c](https://github.com/WenHaoHuang/changelog-sn/commit/ebded6c))
 - 配置修改
-  - 集成bin命令，实现可配置化关联issues问题、控制是否展示提交者信息、支持自定义时间格式化([abdb782](https://github.com/WenHaoHuang/changelog-sn/commit/abdb782))(wenhao.huang)(2019-10-19 03:36:40)
+  - 集成bin命令，实现可配置化关联issues问题、控制是否展示提交者信息、支持自定义时间格式化([abdb782](https://github.com/WenHaoHuang/changelog-sn/commit/abdb782))
 
 ### 1.0.0
 
-_2019-10-11 16:02:35_
+_2019-10-11_
 
 #### 优化
 
 - log
-  - 优化处理changelog文件生成([0f5880e](https://github.com/WenHaoHuang/changelog-sn/commit/0f5880e))(wenhao.huang)(2019-10-11 16:02:35)
+  - 优化处理changelog文件生成([0f5880e](https://github.com/WenHaoHuang/changelog-sn/commit/0f5880e))
 - 日志提取
-  - 优化日志提取顺序([b0c0b9c](https://github.com/WenHaoHuang/changelog-sn/commit/b0c0b9c))(WenHaoHuang)(2019-09-10 15:37:10)
+  - 优化日志提取顺序([b0c0b9c](https://github.com/WenHaoHuang/changelog-sn/commit/b0c0b9c))
 
 #### 修复
 
 - custom
-  - 优化定制化生成changelog的格式([ed4219a](https://github.com/WenHaoHuang/changelog-sn/commit/ed4219a))(WenHaoHuang)(2019-10-11 08:24:16)
+  - 优化定制化生成changelog的格式([ed4219a](https://github.com/WenHaoHuang/changelog-sn/commit/ed4219a))
 - 修复地址错误
-  - 修复地址错误的问题([e11b613](https://github.com/WenHaoHuang/changelog-sn/commit/e11b613))(WenHaoHuang)(2019-09-27 03:36:34)
+  - 修复地址错误的问题([e11b613](https://github.com/WenHaoHuang/changelog-sn/commit/e11b613))
 
 #### 新功能
 
 - 配置增加
-  - 新增3个特定配置文档([4db5b74](https://github.com/WenHaoHuang/changelog-sn/commit/4db5b74))(WenHaoHuang)(2019-09-27 03:25:13)
+  - 新增3个特定配置文档([4db5b74](https://github.com/WenHaoHuang/changelog-sn/commit/4db5b74))
 
 #### 重构
 
 - changelog
-  - 调整获取changelog的判断条件([f5e04fe](https://github.com/WenHaoHuang/changelog-sn/commit/f5e04fe))(wenhao.huang)(2019-08-29 10:43:59)
+  - 调整获取changelog的判断条件([f5e04fe](https://github.com/WenHaoHuang/changelog-sn/commit/f5e04fe))
 - 日志提取
-  - 更新日志提取的功能([f1429e6](https://github.com/WenHaoHuang/changelog-sn/commit/f1429e6))(wenhao.huang)(2019-08-29 11:46:14)
+  - 更新日志提取的功能([f1429e6](https://github.com/WenHaoHuang/changelog-sn/commit/f1429e6))
 
 ### 0.0.6
 
-_2019-08-26 18:16:37_
+_2019-08-26_
 
 #### 新功能
 
 - 
-  - 调整cz配置([209ca43](https://github.com/WenHaoHuang/changelog-sn/commit/209ca43))(wenhao.huang)(2019-08-26 18:07:24)  - 调整cz配置([65c1365](https://github.com/WenHaoHuang/changelog-sn/commit/65c1365))(wenhao.huang)(2019-08-26 18:03:14)
+  - 调整cz配置([209ca43](https://github.com/WenHaoHuang/changelog-sn/commit/209ca43))  - 调整cz配置([65c1365](https://github.com/WenHaoHuang/changelog-sn/commit/65c1365))
 
 ### 0.0.5
 
-_2019-08-25 07:24:06_
+_2019-08-25_
 
 #### 修复
 
 - template
-  - template格式问题测试([1d8a976](https://github.com/WenHaoHuang/changelog-sn/commit/1d8a976))(wenhao.huang)(2019-08-25 07:21:14)  - 修复生成template的格式问题([c2cf2a5](https://github.com/WenHaoHuang/changelog-sn/commit/c2cf2a5))(wenhao.huang)(2019-08-25 07:19:05)
+  - template格式问题测试([1d8a976](https://github.com/WenHaoHuang/changelog-sn/commit/1d8a976))  - 修复生成template的格式问题([c2cf2a5](https://github.com/WenHaoHuang/changelog-sn/commit/c2cf2a5))
 
 ### 0.0.4
 
-_2019-08-25 06:53:00_
+_2019-08-25_
 
 #### 新功能
 
 - 数据层
-  - 增加一种配置可供提取全部更新日志([760045d](https://github.com/WenHaoHuang/changelog-sn/commit/760045d))(wenhao.huang)(2019-08-25 06:49:43)
+  - 增加一种配置可供提取全部更新日志([760045d](https://github.com/WenHaoHuang/changelog-sn/commit/760045d))
 
 ### 0.0.3
 
-_2019-08-24 14:21:01_
+_2019-08-24_
 
 #### 修复
 
 - template
-  - 修复生成template的格式问题([9bb73de](https://github.com/WenHaoHuang/changelog-sn/commit/9bb73de))(wenhao.huang)(2019-08-24 14:08:35)
+  - 修复生成template的格式问题([9bb73de](https://github.com/WenHaoHuang/changelog-sn/commit/9bb73de))
 - 
-  - template问题修复([b36bfa2](https://github.com/WenHaoHuang/changelog-sn/commit/b36bfa2))(wenhao.huang)(2019-08-24 14:12:57)
+  - template问题修复([b36bfa2](https://github.com/WenHaoHuang/changelog-sn/commit/b36bfa2))
 
 #### 新功能
 
 - 
-  - template格式问题([a144ed1](https://github.com/WenHaoHuang/changelog-sn/commit/a144ed1))(wenhao.huang)(2019-08-24 14:16:07)
+  - template格式问题([a144ed1](https://github.com/WenHaoHuang/changelog-sn/commit/a144ed1))
 - 全部
-  - 目录调整([422f487](https://github.com/WenHaoHuang/changelog-sn/commit/422f487))(wenhao.huang)(2019-08-24 14:20:25)
+  - 目录调整([422f487](https://github.com/WenHaoHuang/changelog-sn/commit/422f487))
 
 
 #### 不兼容变更
@@ -106,14 +115,14 @@ _2019-08-24 14:21:01_
 
 ### 0.0.2
 
-_2019-08-24 13:30:08_
+_2019-08-24_
 
 ### 0.0.1
 
-_2019-08-24 13:26:05_
+_2019-08-24_
 
 #### 新功能
 
 - 
-  - 初始化项目([8a3f81e](https://github.com/WenHaoHuang/changelog-sn/commit/8a3f81e))(wenhao.huang)(2019-08-24 13:24:37)
+  - 初始化项目([8a3f81e](https://github.com/WenHaoHuang/changelog-sn/commit/8a3f81e))
 

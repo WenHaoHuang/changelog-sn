@@ -27,13 +27,6 @@
         },
         "cz-customizable": {
             "config": ".cz-config.js"
-        },
-        "changelog-sn": {
-            "jira": true,
-            "type": "DASP",
-            "url": "http://newjira.cnsuning.com/brower",
-            "author": true,
-            "dateFormat": "yyyy-mm-dd HH:MM:ss"
         }
     },
     "husky": {
