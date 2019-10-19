@@ -23,9 +23,6 @@
 {{~hash}}
 {{~/if}}
 {{~!-- commit references --}}
-{{~#if @root.pkgSnData.author~}}
-({{~author~}})({{~committerDate}})
-{{~/if}}
 {{~#if references~}}
 , CLOSE
 {{~#each references}}
@@ -60,4 +57,7 @@
 {{~/if}}
 {{~this.repository}}#{{this.issue}}
 {{~/if}}{{/each}}
+{{~/if}}
+{{~#if @root.pkgSnData.author~}}
+({{~author~}})({{~committerDate}})
 {{~/if}}
