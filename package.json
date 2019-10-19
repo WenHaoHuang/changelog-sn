@@ -13,7 +13,7 @@
     ],
     "scripts": {
         "cz": "git add . && git cz",
-        "log": "changelog-sn -i CHANGELOG.md -s -r 0",
+        "log": "changelog-sn -i CHANGELOG.md -s -r 2",
         "log:all": "changelog-sn --config lib/all -i CHANGELOG.md -s -u -r 0",
         "v": "standard-version"
     },
@@ -55,7 +55,8 @@
         "husky": "3.0.9"
     },
     "devDependencies": {
-        "standard-version": "^7.0.0"
+        "standard-version": "^7.0.0",
+        "changelog-sn": "2.0.0"
     },
     "repository": {
         "type": "git",
