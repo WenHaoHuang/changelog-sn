@@ -15,7 +15,8 @@
         "cz": "git add . && git cz",
         "log": "changelog-sn -i CHANGELOG.md -s -r 2",
         "log:all": "changelog-sn --config lib/all -i CHANGELOG.md -s -u -r 0",
-        "v": "standard-version"
+        "v": "standard-version",
+        "release": "sh release.sh"
     },
     "keywords": [
         "changelog",
