@@ -1,3 +1,12 @@
+### 2.0.3
+
+_2019-10-19_
+
+#### 修复
+
+- dateFormat
+  - 修复时间格式化异常的问题([7e4e83f](https://github.com/WenHaoHuang/changelog-sn/commit/7e4e83f))
+
 ### 2.0.2
 
 _2019-10-19_
