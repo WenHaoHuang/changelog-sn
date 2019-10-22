@@ -7,6 +7,15 @@ _2019-10-19_
 - templte
   - 优化日志生成版本缺失链接的问题([dce2084](https://github.com/WenHaoHuang/changelog-sn/commit/dce2084))
 
+### [2.0.5](https://github.com/WenHaoHuang/changelog-sn/compare/v2.0.4...v2.0.5)
+
+_2019-10-19_
+
+#### 优化
+
+- templte
+  - 优化日志生成版本缺失链接的问题([dce2084](https://github.com/WenHaoHuang/changelog-sn/commit/dce2084))
+
 ### [2.0.4](https://github.com/WenHaoHuang/changelog-sn/compare/v1.0.0...v2.0.4)
 
 _2019-10-19_

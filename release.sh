@@ -1,8 +1,3 @@
-### 
-# @Author: wenhao.huang
- # @UserId: 18073766
- # @Create: 2019-08-09 20:56:41
- ###
 #!/usr/bin/env sh
 set -e
 
