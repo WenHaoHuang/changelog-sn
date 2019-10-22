@@ -1,3 +1,12 @@
+### [2.0.7](https://github.com/WenHaoHuang/changelog-sn/compare/v2.0.6...v2.0.7)
+
+_2019-10-22_
+
+#### 优化
+
+- console
+  - 删除console代码([6583619](https://github.com/WenHaoHuang/changelog-sn/commit/6583619))
+
 ### [2.0.5](https://github.com/WenHaoHuang/changelog-sn/compare/v2.0.4...v2.0.5)
 
 _2019-10-19_
