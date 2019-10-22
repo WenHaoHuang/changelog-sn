@@ -1,3 +1,12 @@
+### [2.0.6](https://github.com/WenHaoHuang/changelog-sn/compare/v2.0.5...v2.0.6)
+
+_2019-10-22_
+
+#### 优化
+
+- 更新依赖
+  - 更新依赖，减少使用依赖安装([f330491](https://github.com/WenHaoHuang/changelog-sn/commit/f330491))
+
 ### [2.0.5](https://github.com/WenHaoHuang/changelog-sn/compare/v2.0.4...v2.0.5)
 
 _2019-10-19_
