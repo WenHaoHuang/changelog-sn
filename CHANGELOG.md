@@ -1,3 +1,14 @@
+### [2.1.1](https://github.com/WenHaoHuang/changelog-sn/compare/v2.1.0...v2.1.1)
+
+_2019-10-23_
+
+#### 修复
+
+##### tempalte
+- ([0527437](https://github.com/WenHaoHuang/changelog-sn/commit/0527437))解决日志生成中格式问题
+
+
+
 ### [2.1.0](https://github.com/WenHaoHuang/changelog-sn/compare/v2.0.8...v2.1.0)
 
 _2019-10-23_
