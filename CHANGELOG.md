@@ -1,3 +1,12 @@
+### [2.1.0](https://github.com/WenHaoHuang/changelog-sn/compare/v2.0.8...v2.1.0)
+
+_2019-10-23_
+
+#### 修复
+
+##### template
+- ([7886e29](https://github.com/WenHaoHuang/changelog-sn/commit/7886e29))修复日志生成中的格式异常问题
+
 ### [2.0.8](https://github.com/WenHaoHuang/changelog-sn/compare/v2.0.7...v2.0.8)
 
 _2019-10-23_
