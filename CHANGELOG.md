@@ -1,3 +1,12 @@
+### [2.0.8](https://github.com/WenHaoHuang/changelog-sn/compare/v2.0.7...v2.0.8)
+
+_2019-10-23_
+
+#### 优化
+
+##### template
+([a87b59b](https://github.com/WenHaoHuang/changelog-sn/commit/a87b59b))- 优化changelog输出格式
+
 ### [2.0.7](https://github.com/WenHaoHuang/changelog-sn/compare/v2.0.6...v2.0.7)
 
 _2019-10-22_
