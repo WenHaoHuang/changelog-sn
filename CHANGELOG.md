@@ -1,3 +1,14 @@
+### [2.1.2](https://github.com/WenHaoHuang/changelog-sn/compare/v2.1.1...v2.1.2)
+
+_2019-10-24_
+
+#### 优化
+
+##### template
+- 优化处理template格式问题([742020d](https://github.com/WenHaoHuang/changelog-sn/commit/742020d))
+
+
+
 ### [2.1.1](https://github.com/WenHaoHuang/changelog-sn/compare/v2.1.0...v2.1.1)
 
 _2019-10-23_
