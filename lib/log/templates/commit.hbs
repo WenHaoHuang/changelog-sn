@@ -1,26 +1,8 @@
 {{! commit scope }}
-{{~!-- commit link --}}
-{{~#if @root.linkReferences~}}
-- ([{{hash}}](
-{{~#if @root.repository}}
-{{~#if @root.host}}
-{{~@root.host}}/
-{{~/if}}
-{{~#if @root.owner}}
-{{~@root.owner}}/
-{{~/if}}
-{{~@root.repository}}
-{{~else}}
-{{~@root.repoUrl}}
-{{~/if}}/
-{{~@root.commit}}/{{hash}}))
-{{~else}}
-- {{~hash~}}
-{{~/if}}
 {{#if subject}}
-{{~subject~}}
+- {{subject~}}
 {{~else}}
-{{~header~}}
+- {{header~}}
 {{~/if}}
 {{~!-- commit references --}}
 {{~#if references~}}
@@ -58,5 +40,23 @@
 {{~/if}}{{/each}}
 {{~/if}}
 {{~#if @root.pkgSnData.author~}}
-_({{~author~}} 提交于 {{~committerDate}})_
+_({{~author}} 提交于 {{committerDate}})_
+{{~/if}}
+{{~!-- commit link --}}
+{{~#if @root.linkReferences~}}
+([{{hash}}](
+{{~#if @root.repository}}
+{{~#if @root.host}}
+{{~@root.host}}/
+{{~/if}}
+{{~#if @root.owner}}
+{{~@root.owner}}/
+{{~/if}}
+{{~@root.repository}}
+{{~else}}
+{{~@root.repoUrl}}
+{{~/if}}/
+{{~@root.commit}}/{{hash}}))
+{{~else}}
+{{~hash~}}
 {{~/if}}
