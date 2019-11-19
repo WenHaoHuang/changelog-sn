@@ -1,3 +1,14 @@
+### [2.1.4](https://github.com/WenHaoHuang/changelog-sn/compare/v2.1.3...v2.1.4)
+
+_2019-11-19_
+
+#### 修复
+
+##### template
+- 修复commit信息为英文时，md斜体语法不生效([03c7eb3](https://github.com/WenHaoHuang/changelog-sn/commit/03c7eb3))
+
+
+
 ### [2.1.3](https://github.com/WenHaoHuang/changelog-sn/compare/v2.1.2...v2.1.3)
 
 _2019-11-19_
