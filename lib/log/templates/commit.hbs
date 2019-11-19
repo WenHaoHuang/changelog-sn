@@ -39,8 +39,8 @@
 {{~this.repository}}#{{this.issue}}
 {{~/if}}{{/each}}
 {{~/if}}
-{{~#if @root.pkgSnData.author~}}
- _({{~author}} 提交于 {{committerDate}})_ 
+{{~#if @root.pkgSnData.author}}
+(_{{~author}} 提交于 {{committerDate}}_)
 {{~/if}}
 {{~!-- commit link --}}
 {{~#if @root.linkReferences~}}
