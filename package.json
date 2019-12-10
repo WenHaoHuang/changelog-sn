@@ -8,20 +8,14 @@
   "bin": {
     "changelog-sn": "./lib/core/cli.js"
   },
-  "files": [
-    "lib"
-  ],
+  "files": [ "lib" ],
   "scripts": {
     "cz": "git add . && git cz",
     "log": "changelog-sn -i CHANGELOG.md -s -r 2",
-    "log:all": "changelog-sn --config lib/all -i CHANGELOG.md -s -u -r 0",
     "v": "standard-version",
     "release": "sh release.sh"
   },
-  "keywords": [
-    "changelog",
-    "git"
-  ],
+  "keywords": [ "changelog", "git" ],
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
