@@ -1,3 +1,7 @@
+### [2.1.5](https://github.com/WenHaoHuang/changelog-sn/compare/v2.1.4...v2.1.5)
+
+_2019-12-10_
+
 ### [2.1.4](https://github.com/WenHaoHuang/changelog-sn/compare/v2.1.3...v2.1.4)
 
 _2019-11-19_
