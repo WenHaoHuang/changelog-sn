@@ -1,3 +1,14 @@
+### [2.1.8](https://github.com/WenHaoHuang/changelog-sn/compare/v2.1.5...v2.1.8)
+
+_2021-01-22_
+
+#### 修复
+
+##### chore
+- 升级兼容read-pkg-up的新版本([54d225f](https://github.com/WenHaoHuang/changelog-sn/commit/54d225f))
+
+
+
 ### [2.1.5](https://github.com/WenHaoHuang/changelog-sn/compare/v2.1.4...v2.1.5)
 
 _2019-12-10_
