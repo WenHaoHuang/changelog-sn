@@ -1,6 +1,6 @@
 {
   "name": "changelog-sn",
-  "version": "2.1.8",
+  "version": "2.2.0",
   "author": "WenHaoHuang",
   "description": "changelog",
   "main": "lib/log/index.js",
@@ -12,7 +12,7 @@
     "lib"
   ],
   "scripts": {
-    "cz": "git add . && git cz",
+    "cz": "git add . && cz",
     "log": "changelog-sn -i CHANGELOG.md -s -r 2",
     "v": "standard-version",
     "release": "sh release.sh"
@@ -42,23 +42,23 @@
   },
   "dependencies": {
     "add-stream": "1.0.0",
-    "chalk": "2.4.2",
-    "compare-func": "1.3.2",
+    "chalk": "5.0.0",
+    "compare-func": "2.0.0",
     "longest": "2.0.1",
     "q": "1.5.1",
-    "tempfile": "3.0.0",
-    "@commitlint/cli": "8.2.0",
-    "commitizen": "4.0.3",
-    "cz-customizable": "6.2.0",
+    "tempfile": "4.0.0",
+    "@commitlint/cli": "15.0.0",
+    "commitizen": "4.2.4",
+    "cz-customizable": "6.3.0",
     "github-url-from-git": "1.5.0",
-    "husky": "3.0.9",
-    "conventional-changelog-preset-loader": "2.2.0",
-    "conventional-changelog-writer": "4.0.9",
-    "get-pkg-repo": "4.1.0",
-    "git-semver-tags": "3.0.0"
+    "husky": "7.0.4",
+    "conventional-changelog-preset-loader": "2.3.4",
+    "conventional-changelog-writer": "5.0.0",
+    "get-pkg-repo": "5.0.0",
+    "git-semver-tags": "4.1.1"
   },
   "devDependencies": {
-    "standard-version": "7.0.0"
+    "standard-version": "9.3.2"
   },
   "repository": {
     "type": "git",

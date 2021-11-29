@@ -8,7 +8,7 @@
 
 ### 依赖安装
 
-> npm install changelog --save-dev
+> npm install changelog-sn --save-dev
 
 ### 配置commitlint和commitizen
 
@@ -82,7 +82,7 @@ module.exports = {
 {
   "scripts": {
     "log": "changelog-sn -i CHANGELOG.md -s -r 2",
-    "cz": "git add . && git cz",
+    "cz": "git add . && cz",
     "v": "standard-version --prerelease"
   },
   "husky": {
@@ -105,8 +105,8 @@ module.exports = {
     }
   },
   "devDependencies": {
-    "changelog-sn": "2.1.4",
-    "standard-version": "7.0.0"
+    "changelog-sn": "2.2.0",
+    "standard-version": "9.3.2"
   }
 }
 ```
@@ -115,7 +115,7 @@ module.exports = {
 > 该命令用来生成CHANGELOG.MD日志
 
 #### scripts命令之cz
-> 该命令会先执行add改动文件并执行git cz来代替git commit以获得commit信息帮助，也可分开执行git add .和npx git cz，如果全局安装commitizen可直接使用git cz
+> 该命令会先执行add改动文件并执行`cz`来代替`git commit`以获得`commit`信息帮助，也可分开执行`git add .`和`npx cz`，如果全局安装`commitizen`可直接使用`cz`
 
 #### scripts命令之v
-> 使用standard-version插件按照配置规则升级版本，标记tag
+> 使用`standard-version`插件按照配置规则升级版本，标记`tag`
